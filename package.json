@@ -1,0 +1,21 @@
+{
+    "name": "manse.mannari",
+    "title": "mannari",
+    "description": "A phantom color scheme for Brackets.",
+    "homepage": "https://github.com/manse/brackets-mannari",
+    "version": "1.0.0",
+    "author": "Ryota Mannari <info@manse.jp> (http://manse.github.io)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manse/brackets-mannari"
+    },
+    "engines": {
+        "brackets": ">=1.3.0"
+    },
+    "keywords": ["theme", "monokai", "dark", "soda", "sublime", "text", "fork", "extension", "mannari"]
+}

@@ -1,0 +1,217 @@
+/*
+  MIT License
+  mannari
+
+
+  original:
+
+  Monokai Dark Soda
+  https://github.com/rainje/Monokai-Dark-Soda.git
+
+  -----------
+
+  The MIT License (MIT)
+
+  Original work Copyright © 2014 Steffen Bruchmann <hi@sbruchmann.me> (http://sbruchmann.me)
+  Modified work Copyright © 2014-2015 rain
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+*/
+
+.cm-keyword,
+.cm-tag,
+.cm-qualifier,
+.cm-operator,
+.cm-bracket {
+    color: #F87E71;
+}
+
+.cm-meta,
+.cm-attribute,
+.cm-builtin {
+    color: #FEBD62;
+}
+
+.cm-property {
+    color: #FEE584;
+}
+
+.cm-variable-3,
+.cm-variable-2,
+.cm-variable,
+.cm-def {
+    color: #E8EDEE;
+}
+
+.cm-atom,
+.cm-number {
+    color: #F8C0F9;
+}
+
+.cm-string,
+.cm-string-2 {
+    color: #DAFABA;
+}
+
+.cm-comment {
+    color: #8c8c8c;
+}
+
+.cm-matchhighlight {
+    background-color: #333;
+}
+
+.cm-error {
+    color: #F4948D;
+    background: #6B2321;
+}
+
+.CodeMirror,
+.CodeMirror-scroll {
+    background-color: #313030;
+    color: #F8F8F2;
+    line-height: 120%;
+}
+
+.CodeMirror-gutters {
+    background-color: #313030;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background,
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt,
+.inline-widget .CodeMirror-gutter-elt {
+    background: #313030;
+}
+
+.CodeMirror-linenumber {
+    color: #767676;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #F8F8F2;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #F87E71 !important;
+}
+
+.CodeMirror-selected {
+    background: #3C3F41;
+    opacity: .23;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background-color: #E6DB74;
+    color: #242424;
+}
+
+.CodeMirror-matchingbracket {
+    background-color: rgba(105, 240, 100, 0.3) !important;
+    color: #BEF8A8 !important;
+    text-shadow: 0 0 10px #BEF8A8;
+    font-weight: bold;
+}
+
+.CodeMirror-nonmatchingbracket {
+    background-color: transparent !important;
+    color: #f00 !important;
+    text-shadow: 0 0 10px #f00;
+    font-weight: bold;
+}
+
+.CodeMirror-matchingtag {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #F8F8F2;
+}
+
+.CodeMirror-searching {
+    background-color: #FEE584;
+}
+
+.searching-current-match {
+    background-color: #FEBD62;
+}
+
+.CodeMirror-foldgutter-open:after {
+    content: "\2335";
+    font-size: 1.3em;
+    color: #767676;
+}
+
+.CodeMirror-foldgutter-folded:after {
+    content: "+";
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: transparent !important;
+    color: #BEF8A8 !important;
+    text-shadow: 0 0 10px #BEF8A8;
+}
+
+.CodeMirror-foldgutter-folded {
+    padding-top: 2px;
+}
+
+.CodeMirror-foldgutter-open {
+    padding-top: 1px;
+}
+
+.CodeMirror-foldmarker {
+    display: inline-block;
+    border-radius: 0.75em;
+    padding: 0 2px 0 2px;
+    border: 0;
+    font-size: 0.75em;
+    color: #BEF8A8 !important;
+    text-shadow: 0 0 10px #BEF8A8;
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+.CodeMirror-foldmarker {
+    content: '\2022\2022\2022';
+    position: relative;
+    top: 1px;
+}
+
+.ico-cssColorPreview {
+    border-radius: 50%;
+    border: 0;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 2px;
+}
+
+.brackets-git-gutter-modified,
+.brackets-git-gutter-removed,
+.brackets-git-gutter-added {
+    width: 3px;
+}
+
+.interactive-linter-gutter-messages {
+    border: 2px solid #F87E71 !important;
+    border-radius: 99em;
+    width: 6px;
+    height: 6px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    background: none !important;
+}
